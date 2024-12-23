@@ -1,0 +1,9 @@
+[package]
+name = "parsql-tutorials"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+parsql = { version = "0.1.1", features = ["tokio-postgres"] }
+tokio = { version = "1.42.0", features = ["full"] }
+tokio-postgres = "0.7.12"
